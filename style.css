@@ -1,0 +1,40 @@
+/* same clor  */
+h1{
+    border-bottom
+
+    margin: 0 auto;
+}
+/* same clor end  */
+.icon_bg{
+    font-size: 18px;
+    color: #7fad39;
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+/* part_3_done  */
+/* part_4_start  */
+/* .bg_img{
+    background-image:url(./img/banner.jpg);
+    width: 100%;
+} */
+
+#intro {
+  background-image: url("/img/banner.jpg");
+  height: 431px;
+  display: flex;
+  align-items: center;
+  padding-left: 75px;
+  width:100% ;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
