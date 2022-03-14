@@ -72,7 +72,7 @@
         <div class="container ">
             <div class="row">
                 <div class="col-3">
-                    <img src="/img/Screenshot_8-removebg-preview.png" alt="">
+                    <img src="img/Screenshot_8-removebg-preview.png" alt="">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -119,7 +119,7 @@
     <div class="container bg-white p-3 mt-2">
         <div class="row">
             <div class="col-3">
-                <img src="/img/Screenshot_8-removebg-preview.png" alt="">
+                <img src="img/Screenshot_8-removebg-preview.png" alt="">
             </div>
             <div class="col-6 d-flex mt-2 justify-content-around ">
                 <ul class="d-flex list-unstyled">
@@ -149,7 +149,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">BLOG</a>
+                        <a class="nav-link " href="blog.html">BLOG</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="contect.html">
@@ -167,13 +167,14 @@
     <!-- PART 3  -->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-3 mt-1">
+            <div class="col-3">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                All departments
+                            <button class="accordion-button bg-primary text-white d-flex" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne"><i class="fa-solid fa-bars gap-2"></i>
+                                <label for="" class="ms-4"> All departments</label>
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -193,31 +194,27 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 mt-1">
-                <nav class="navbar">
-                    <div class="d-flex">
-                        <div class="d-flex  border p-1">
-                            <a class="navbar-brand  p-1 d-flex border-end d-none d-md-block ">All Categories </a>
-                            <input class="form-control  border-0 " type="search" placeholder="Search"
-                                aria-label="Search">
-                        </div>
-                        <form class=" d-flex rounded">
-                            <button class="btn btn-outline-success bg-primary text-white" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
+            <div class="col-6">
+                <div class="d-flex">
+                    <a class="navbar-brand d-none d-xl-block p-1 d-flex border-end d-none d-md-block ">All Categories
+                    </a>
+                    <form action="data.php" method="POST" class="d-flex w-100">
+                        <input class="form-control w-100 border-0 " type="search" placeholder="Search"
+                            aria-label="Search">
+
+                        <button class="btn btn-outline-success bg-primary text-white" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="col-3 d-flex">
                 <div class="icon_bg">
                     <i class="fa-solid fa-envelope "></i>
                 </div>
                 <label for="p">
                     <p class="p-2">+65 11.188.888 <br>support 24/7 time</p>
-
                 </label>
             </div>
         </div>
@@ -251,20 +248,20 @@
             <div class="carousel-inner">
                 <div class="w-25">
                     <div class="carousel-item">
-                        <img src="/img/cat-1.jpg" class=" w-100" alt="...">
+                        <img src="img/cat-1.jpg" class=" w-100" alt="...">
 
                     </div>
                     <div class="carousel-item ">
-                        <img src="/img/cat-2.jpg" class=" w-100" alt="...">
+                        <img src="img/cat-2.jpg" class=" w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/cat-3.jpg" class=" w-100" alt="...">
+                        <img src="img/cat-3.jpg" class=" w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/img/cat-3.jpg" class=" w-100" alt="...">
+                        <img src="img/cat-3.jpg" class=" w-100" alt="...">
                     </div>
                     <div class="carousel-item active">
-                        <img src="/img/cat-3.jpg" class=" w-100" alt="...">
+                        <img src="img/cat-3.jpg" class=" w-100" alt="...">
                     </div>
                 </div>
             </div>
@@ -310,7 +307,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3 ">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-1.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-1.jpg" class="card-img-top" alt="...">
                     <ul class="table-hover">
                         <li>
                             <a href=""> <i class="fa-solid fa-calendar"></i></a>
@@ -330,7 +327,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-2.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-2.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -340,7 +337,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-3.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-3.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -349,7 +346,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-4.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-4.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -358,7 +355,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-5.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-5.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -367,7 +364,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-6.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-6.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -376,7 +373,7 @@
             </div>
             <div class=" col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-7.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-7.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -385,7 +382,7 @@
             </div>
             <div class="col-12 d-grid d-flex col-sm-6 col-md-4 col-lg-3">
                 <div class="" style="width: 18rem;">
-                    <img src="/img/feature-8.jpg" class="card-img-top" alt="...">
+                    <img src="img/feature-8.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
@@ -395,13 +392,13 @@
 
             <div class="col-12 mt-4 col-md-6">
                 <div class="">
-                    <img src="/img/xbanner-1.jpg.pagespeed.ic.aDN3QrExt6 - Copy.webp" class="card-img-top" alt="...">
+                    <img src="img/xbanner-1.jpg.pagespeed.ic.aDN3QrExt6 - Copy.webp" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <div class="col-12 mt-4  col-md-6 ">
                 <div class="">
-                    <img src="/img/xbanner-2.jpg.pagespeed.ic.-2eeuFVLcY - Copy.webp" class="card-img-top" alt="...">
+                    <img src="img/xbanner-2.jpg.pagespeed.ic.-2eeuFVLcY - Copy.webp" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>
@@ -411,7 +408,7 @@
     <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/img/xblog-1.jpg.pagespeed.ic.b6c8D8etPg.web" class="d-block w-100" alt="...">
+                <img src="img/xblog-1.jpg.pagespeed.ic.b6c8D8etPg.web" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="..." class="d-block w-100" alt="...">
@@ -443,7 +440,7 @@
             </div>
             <div class=" col-12 d-grid mt-4 d-flex col-sm-6 col-md-4 col-lg-4 ">
                 <div class="" style="width: 22rem;">
-                    <img src="/img/xblog-1.jpg.pagespeed.ic.b6c8D8etPg.webp" class="card-img-top" alt="...">
+                    <img src="img/xblog-1.jpg.pagespeed.ic.b6c8D8etPg.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <i class="fa-solid fa-calendar"></i>
                         <label for="" class="ms-2">May 10,2022</label>
@@ -457,7 +454,7 @@
             </div>
             <div class=" col-12 d-grid mt-4 d-flex col-sm-6 col-md-4 col-lg-4 ">
                 <div class="" style="width: 22rem;">
-                    <img src="/img/xblog-2.jpg.pagespeed.ic.Wv9OXwE7iA - Copy.webp" class="card-img-top" alt="...">
+                    <img src="img/xblog-2.jpg.pagespeed.ic.Wv9OXwE7iA - Copy.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <i class="fa-solid fa-calendar"></i>
                         <label for="" class="ms-2">May 10,2022</label>
@@ -472,7 +469,7 @@
             </div>
             <div class="col-12 d-grid mt-4 d-flex col-sm-6 col-md-4 col-lg-4 ">
                 <div class="" style="width: 22rem">
-                    <img src="/img/xblog-3.jpg.pagespeed.ic.ruf-U0Iaxk - Copy.webp" class="card-img-top" alt="...">
+                    <img src="img/xblog-3.jpg.pagespeed.ic.ruf-U0Iaxk - Copy.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <i class="fa-solid fa-calendar"></i>
                         <label for="" class="ms-2">May 10,2022</label>
@@ -494,7 +491,7 @@
             <div class="row mt-5 pt-3">
                 <div class="col-12 mt-5 col-sm-6 col-lg-4">
                     <div class="w-100 fst-italic">
-                        <img src="/img/Screenshot_8-removebg-preview - Copy.png" alt="">
+                        <img src="img/Screenshot_8-removebg-preview - Copy.png" alt="">
                         <ul class="list-group list-unstyled mt-3">
                             <li class="list-unstyled">Address: 60-49 Road 11378 New York</li>
                             <li class="list-unstyled">Phone: +65 11.188.888</li>
@@ -557,7 +554,7 @@
                         </div>
                         <div class="col-12 col-md-6  ">
                             <img class=""
-                                src="https://preview.colorlib.com/theme/ogani/img/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp"
+                                src="https://preview.colorlib.com/theme/oganiimg/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp"
                                 alt="">
                         </div>
 
@@ -569,7 +566,7 @@
                     </div>
                     <div class="">
                         <img class="d-flex justify-content-end"
-                            src="https://preview.colorlib.com/theme/ogani/img/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp"
+                            src="https://preview.colorlib.com/theme/oganiimg/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp"
                             alt="">
                     </div>
                 </div> -->
