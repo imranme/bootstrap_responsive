@@ -51,7 +51,7 @@
             <div class="col-3">
                 <img src="img/Screenshot_8-removebg-preview.png" alt="">
             </div>
-            <div class="col-6 d-flex mt-2 justify-content-around ">
+            <div class="col-6 d-flex mt-2 justify-content-around d-none d-lg-block">
                 <ul class="d-flex list-unstyled">
                     <li class="nav-item ">
                         <a class="nav-link active" href="index.html">HOME</a>
@@ -85,7 +85,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-3 p-2 mt-2 d-flex justify-content-evenly">
+            <div class="col-3 p-2 mt-2 d-none d-lg-flex justify-content-evenly">
                 <i class="fa-solid fa-heart" id="icont"></i>
                 <i class="fa-solid fa-bag-shopping" id="icont2"></i>
                 <label for=" "> item: $150.00</label>
@@ -96,32 +96,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                <div class="accordion  " id="accordionExample">
-                    <div class="accordion-item ">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button bg-primary text-white d-flex" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne"><i class="fa-solid fa-bars gap-2"></i>
-                                <label for="" class="ms-4"> All departments</label>
-                            </button>
-                        </h2>
-                        <!-- <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body ">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
-                                <a href="#" class="list-group-item list-group-item-action">Vegetables</a>
-                                <a href="#" class="list-group-item list-group-item-action">Fruit & Nut Gifts</a>
-                                <a href="#" class="list-group-item list-group-item-action">Fresh Berries</a>
-                                <a href="#" class="list-group-item list-group-item-action">Ocean Foods</a>
-                                <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
-                                <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
-                                <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
-                                <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
-                            </div>
+                <div class="btn-group  w-100">
+                    <button class="btn btn-primary btn-lg dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-bars gap-2 "></i>
+                        <label for="" class="ms-5 "> All departments</label>
+
+                    </button>
+                    <ul class="dropdown-menu w-100">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
+                            <a href="#" class="list-group-item list-group-item-action">Vegetables</a>
+                            <a href="#" class="list-group-item list-group-item-action">Fruit & Nut Gifts</a>
+                            <a href="#" class="list-group-item list-group-item-action">Fresh Berries</a>
+                            <a href="#" class="list-group-item list-group-item-action">Ocean Foods</a>
+                            <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
+                            <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
+                            <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
+                            <a href="#" class="list-group-item list-group-item-action">Fresh Meat</a>
                         </div>
-                    </div> -->
-                    </div>
+                    </ul>
                 </div>
             </div>
             <div class="col-md-6">
@@ -147,12 +141,10 @@
         </div>
     </div>
     <!-- same part end  -->
-
     <!-- bg-img-part  -->
     <div class="text-center p-4 text-white" style="background-image: url(img/breadcrumb.jpg);">
         <h1 class="">Contact Us</h1>
         <p>Home Contact Us</p>
-
     </div>
     <!-- part-2  -->
     <div class="container">
@@ -163,7 +155,6 @@
                         <i class="fa-solid fa-phone"></i>
                     </div>
                     <div class="card-body text-center">
-
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
                     </div>
@@ -175,7 +166,6 @@
                         <i class="fa-solid fa-phone"></i>
                     </div>
                     <div class="card-body text-center">
-
                         <h5 class="card-title">Crab Pool Security</h5>
                         <p class="card-text">$30.00</p>
                     </div>
@@ -207,7 +197,6 @@
     <div class="container">
         <div class="row">
             <h1 class="text-center mt-5">Leave Message</h1>
-
             <div class="col-12 col-md-6 mt-4 ">
                 <input type="text" class="w-100 p-2 h-100" placeholder="your name">
             </div>
@@ -222,13 +211,13 @@
     </div>
     <br><br><br><br> <br>
     <!-- part_3_done -->
-    <div class="bg-light mt-5">
+    <div class="bg-light">
         <div class="container">
             <div class="row mt-5 pt-3">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="w-100">
+                <div class="col-12 mt-5 col-sm-6 col-lg-4">
+                    <div class="w-100 fst-italic">
                         <img src="img/Screenshot_8-removebg-preview - Copy.png" alt="">
-                        <ul class="list-group list-unstyled">
+                        <ul class="list-group list-unstyled mt-3">
                             <li class="list-unstyled">Address: 60-49 Road 11378 New York</li>
                             <li class="list-unstyled">Phone: +65 11.188.888</li>
                             <li class="list-unstyled">Email: hello@colorlib.com</li>
@@ -237,10 +226,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-6 col-sm-6 col-lg-5">
-                    <h5>Useful Links</h5>
-                    <div class="d-flex g-2">
-                        <ul class="list-group list-unstyled">
+                <div class="col-6 mt-5 col-sm-6 col-lg-4 fst-italic ">
+                    <div class="d-flex justify-content-around ">
+                        <ul class="list-group list-unstyled d-flex justify-content-around">
+                            <h5>Useful Links</h5>
                             <li class="list-unstyled">About Us</li>
                             <li class="list-unstyled">About Our Shop</li>
                             <li class="list-unstyled">Secure Shopping</li>
@@ -248,7 +237,6 @@
                             <li class="list-unstyled">Privacy Policy</li>
                             <li class="list-unstyled">our Sitemap</li>
                         </ul>
-
 
                         <ul class="list-group list-unstyled">
                             <li class="list-unstyled">who we Are</li>
@@ -260,13 +248,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 mt-5 col-lg-4 fs-6 fst-italic">
                     <h5>Join Our Newsletter Now</h5>
                     <p>Get E-mail updates about our latest shop and special offers.</p>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username"
+                        <input type="text" class="form-control" placeholder="Enter your Email"
                             aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                        <button class="btn btn-success" type="button" id="">SUBSCRIBE</button>
                     </div>
                     <div class="icon_bg">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -280,31 +268,22 @@
                     <div class="icon_bg">
                         <i class="fa-brands fa-pinterest"></i>
                     </div>
-
                 </div>
-                <br><br><br>
+                <hr class="mt-5">
+                <div class="container">
+                    <div class="row mt-5 d-flex justify-content-between">
+                        <div class="col-lg-6">
+                            <p>copyright@2022 All rights reserved | This template is made with Tushar imran</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class=" ms-5 w-75" src="img/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row mt-5">
-
-            <div class="col-12 col-md-6">
-                <p>copyright@2022 All rights reserved | This template is made with Tushar imran</p>
-            </div>
-            <div class="col-12 col-md-6  ">
-                <img class=""
-                    src="https://preview.colorlib.com/theme/oganiimg/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp"
-                    alt="">
-            </div>
-
-        </div>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
